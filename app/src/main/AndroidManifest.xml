@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.a4399.umengdemo">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AnalyticsHome"></activity>
+        <activity android:name=".FragmentStack"></activity>
+        <activity android:name=".FragmentTabs"></activity>
+        <activity android:name=".WebviewAnalytic"></activity>
+
+        <meta-data android:value="5939fc8a7f2c7470c1001868" android:name="UMENG_APPKEY"/>
+        <meta-data android:value="UmengDemo" android:name="UMENG_CHANNEL"/>
+    </application>
+
+</manifest>
