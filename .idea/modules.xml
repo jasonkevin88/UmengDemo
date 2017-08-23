@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/UmengDemo.iml" filepath="$PROJECT_DIR$/UmengDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/新建文件夹.iml" filepath="$PROJECT_DIR$/新建文件夹.iml" />
     </modules>
   </component>
 </project>

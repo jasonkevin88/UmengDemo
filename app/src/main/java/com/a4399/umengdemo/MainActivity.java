@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void checkPermissionAndThenLoad() {
+
+
+
         //check for permission
         if (PermissionManager.hasPermission(MainActivity.this,mPermissons)) {
         } else {
